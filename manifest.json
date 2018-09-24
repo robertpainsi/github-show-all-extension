@@ -1,0 +1,21 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "logo16.png",
+    "128": "logo128.png"
+  },
+  "manifest_version": 2,
+  "name": "GitHub show all",
+  "description": "Load all diffs and show all outdated comments",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://github.com/pull/*"
+  ],
+  "short_name": "github-load-show-all",
+  "version": "1.0"
+}
